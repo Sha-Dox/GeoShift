@@ -1,0 +1,7 @@
+.DS_Store
+.build/
+dist/
+Resources/AppIcon-Simple.png
+Resources/AppIconSimple.iconset/
+*.xcuserstate
+xcuserdata/
