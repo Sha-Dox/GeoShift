@@ -10,7 +10,7 @@ trap 'rm -rf "$STAGE"' EXIT
 cp -R "$ROOT/dist/GeoShift.app" "$STAGE/GeoShift.app"
 ln -s /Applications "$STAGE/Applications"
 
-OUTPUT="$ROOT/dist/GeoShift-1.1-macOS.dmg"
+OUTPUT="$ROOT/dist/GeoShift-1.1.1-macOS.dmg"
 rm -f "$OUTPUT"
 hdiutil create -volname "GeoShift" -srcfolder "$STAGE" -ov -format UDZO "$OUTPUT"
 echo "$OUTPUT"

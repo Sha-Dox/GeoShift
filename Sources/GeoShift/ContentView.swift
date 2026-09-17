@@ -1,5 +1,5 @@
 import AppKit
-import MapKit
+@preconcurrency import MapKit
 import SwiftUI
 
 struct ContentView: View {
